@@ -2,7 +2,7 @@
 
 This repository contains scripts to setup an environment for exercises of Machine Learning course held by Prof. Iocchi. 
 
-The repo has been developed with the contributions of ML tutors: Ermanno Bertoli and Francesco Frattolillo.
+The repo has been developed with the contributions of ML tutors: Ermanno Bartoli and Francesco Frattolillo.
 
 
 ## Install Docker
