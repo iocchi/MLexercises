@@ -1,10 +1,13 @@
-# sapienza-ml-exercises
+# Environment for ML exercises
 
-This repository is for the Machine Learning course held by Prof. Iocchi. 
+This repository contains scripts to setup an environment for exercises of Machine Learning course held by Prof. Iocchi. 
+
+The repo has been developed with the contributions of ML tutors: Ermanno Bertoli and Francesco Frattolillo.
+
 
 ## Install Docker
 
-In order to have a ready environment without installing manually all the libraries and dependencies, we'll use docker to do this.
+In order to have a ready environment without installing manually all the libraries and dependencies, we use docker.
 
 - [docker](http://www.docker.com)
 
@@ -111,16 +114,23 @@ Since [Google Colab](https://colab.research.google.com/) has some [limitations](
 5. Add the token showed when executing the command in the [**Usage** section](#Usage)
 ![token](/images/get_token.png)
 
-To test your image, use the `first_notebook.ipynb` available in the notebooks directory
+To test your image, use the `first_notebook.ipynb` available in the notebooks directory.
+
+
+## Mount local folders
+
+If you want to develop and run code locally (without Colab), you should mount a local folder to the container, write your Python code there and run the Python script from the container.
+
 
 ## Commit the docker
-If you change something inside the docker and you want to keep the changes don't forget to commit the image by doing the following command:
+
+Although not recommended, if you change something inside the docker and you want to keep the changes don't forget to commit the image by doing the following command:
 ```bash
 docker commit ID_IMAGE NAME_OF_IMAGE
 ```
 **NB**: you can see the id of the image by doing the command:
 ```bash
-docker ps -a
+docker ps
 ```
 
 
