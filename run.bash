@@ -5,3 +5,4 @@ docker run \
   --net host \
   -p 8888:8888 \
   mlnotebook
+

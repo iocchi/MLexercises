@@ -117,6 +117,15 @@ Since [Google Colab](https://colab.research.google.com/) has some [limitations](
 To test your image, use the `first_notebook.ipynb` available in the `test` directory.
 
 
+## Stop the container
+
+To stop the container, you can press `CTRL-c` in the terminal where you launched it,
+or issue in another terminal the command
+
+```bash
+docker stop mlnotebook
+```
+
 ## Mount local folders
 
 If you want to develop and run code locally (without Colab), you should mount a local folder to the container, write your Python code there and run the Python script from the container.
