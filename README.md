@@ -114,7 +114,7 @@ Since [Google Colab](https://colab.research.google.com/) has some [limitations](
 5. Add the token showed when executing the command in the [**Usage** section](#Usage)
 ![token](/images/get_token.png)
 
-To test your image, use the `first_notebook.ipynb` available in the notebooks directory.
+To test your image, use the `first_notebook.ipynb` available in the `test` directory.
 
 
 ## Mount local folders
