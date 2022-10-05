@@ -4,3 +4,4 @@ scipy
 matplotlib
 sklearn
 jupyter_http_over_ws
+jedi==0.17.2
