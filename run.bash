@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# -u $(id -u):$(id -g) \
+
 docker run \
   --name mlnotebook --rm  \
   --net host \

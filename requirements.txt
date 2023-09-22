@@ -1,7 +1,8 @@
-numpy
-pandas
-scipy
-matplotlib
-sklearn
-jupyter_http_over_ws
+jupyter_http_over_ws==0.0.7
 jedi==0.17.2
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.10.1
+matplotlib==3.7.2
+scikit-learn==1.3.1
+
