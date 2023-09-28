@@ -32,7 +32,7 @@ In particular, Install the [Nvidia Container Toolkit](https://github.com/NVIDIA/
 
 ## Tensorflow
 
-The standard docker image used in this course is [**tensorflow 2.3.2-gpu-jupyter**](https://hub.docker.com/layers/tensorflow/tensorflow/2.3.2-gpu-jupyter/images/sha256-9978ac424e00e3461accff7c1cf97484e61cca23820941c20335e0b5d4499a02?context=explore) with both GPU support and jupyter notebook pre installed. 
+The standard docker image used in this course is [**tensorflow 2.13.0-gpu-jupyter**](https://hub.docker.com/layers/tensorflow/tensorflow/2.13.0-gpu-jupyter/images/sha256-64bfb25fd3f85e1b0af1757ef8ff25fb96a261d1e572a4105e3037d0a27cdf67?context=explore) with both GPU support and jupyter notebook pre installed. 
 
 This docker image works also on CPU.
 
