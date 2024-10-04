@@ -22,7 +22,7 @@ In order to install docker on your PC, you can follow the following guide:
 
 Note: skip this section if you do not have an NVidia GPU
 
-In order to run the tensorflow-gpu container you need to have an NVIDIA GPU and the host machine requires the NVIDIA driver (you don't need the NVIDIA CUDA Toolkit). Follow the 
+In order to run the tensorflow-gpu container, you need to have an NVIDIA GPU and the host machine requires the NVIDIA driver (you don't need the NVIDIA CUDA Toolkit). Follow the 
 - [NVIDIA Driver Installation Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html)
 
 Follow the remaining steps described on the [tensorflow website](https://www.tensorflow.org/install/docker#gpu_support). 
@@ -30,11 +30,17 @@ In particular, Install the [Nvidia Container Toolkit](https://github.com/NVIDIA/
 - [Nvidia container toolkit installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit)
 
 
-## Tensorflow
+## Tensorflow 
 
 The standard docker image used in this course is [**tensorflow 2.13.0-gpu-jupyter**](https://hub.docker.com/layers/tensorflow/tensorflow/2.13.0-gpu-jupyter/images/sha256-64bfb25fd3f85e1b0af1757ef8ff25fb96a261d1e572a4105e3037d0a27cdf67?context=explore) with both GPU support and jupyter notebook pre installed. 
 
 This docker image works also on CPU.
+
+Check here if your card and CUDA libraries are compatible with the tensorflow version
+https://www.tensorflow.org/install/source#gpu
+
+Change the base image in the Dockerfile if necessary.
+
 
 
 

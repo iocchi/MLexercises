@@ -1,7 +1,8 @@
 # Docker file for ML + notebook (local runtime for Google Colab)
 
 # https://www.tensorflow.org/install/source#gpu
-# FROM tensorflow/tensorflow:2.3.2-gpu-jupyter
+#FROM tensorflow/tensorflow:2.3.2-gpu-jupyter
+#FROM tensorflow/tensorflow:2.11.0-gpu-jupyter
 FROM tensorflow/tensorflow:2.13.0-gpu-jupyter
 
 RUN mkdir src
